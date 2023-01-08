@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "jest","cors"],
+    
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "swagger.ts"],
+  "exclude": ["src/**/*.spec.ts"]
+}
